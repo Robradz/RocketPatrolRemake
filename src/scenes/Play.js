@@ -4,7 +4,7 @@ class Play extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('starfield', 'assets/starfield.png');
+        this.load.image('starfield', '../assets/starfield.png');
     }
 
     create() {
